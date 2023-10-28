@@ -18,7 +18,7 @@ a:hover {
     align-items: center;
     justify-content: space-between;
     padding: 10px 25px;
-    background-color: #644FC1;
+    background-color: #e97d03;
 }
 
 .top-bar span {
@@ -87,108 +87,6 @@ nav a:hover {
     display: none;
 }
 
-
-.container-titulos {
-    margin: 5% 3%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.titulos {
-    width: 50%;
-    font-size: 1.4em;
-}
-
-
-.container-banner {
-    width: 50%;
-    margin: auto;
-    text-align: center;
-}
-
-.banner {
-    width: 65%;
-    border-radius: 100%;
-}
-
-
-.container-btn {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 2em 0;
-}
-
-
-.btn {
-
-    padding: .7em;
-    border-radius: 1.5625em;
-    font-size: .9em;
-}
-
-.sub {
-    font-weight: 200;
-}
-
-.btn:not(:first-child) {
-    margin-left: .8em;
-    color: #644FC1;
-}
-
-h1 {
-    font-size: 1.7em;
-    font-weight: 300;
-}
-
-h2 {
-    font-size: 1.2em;
-    font-weight: 200;
-}
-
-span {
-    color: #644FC1;
-}
-
-.btn:first-child {
-    border: solid .07em;
-    color: rgb(255, 255, 255);
-    background-color: #644FC1;
-}
-
-p {
-    margin-top: 2%;
-}
-
-.container-dep {
-    display: flex;
-    justify-content: space-around;
-}
-
-.dep {
-    width: 44%;
-    border: .1em solid #644FC1;
-    padding: 1em 2em;
-    border-radius: 1.5625em;
-    background-color: rgb(255, 255, 255);
-}
-
-.btn-depoimento {
-    margin: 6% 0;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.desc-dep {
-    font-size: .8em;
-}
-
-.img-dep {
-    width: 7em;
-}
-
-
 .text-footer {
     font-weight: 200;
 }
@@ -229,7 +127,7 @@ footer {
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color: #644FC1;
+    background-color: #FB8500;
     height: 2px;
     box-sizing: border-box;
     width: 50px;
@@ -308,27 +206,6 @@ footer {
         right: 20px;
     }
 
-    .titulos {
-        width: 100%;
-    }
-
-    .container-btn {
-        justify-content: center;
-    }
-
-    .banner {
-        width: 100%;
-    }
-
-    .container-dep {
-        flex-wrap: wrap;
-        margin: 2%
-    }
-
-    .dep {
-        margin-top: 1em;
-        width: 100%;
-    }
 
 }
 
